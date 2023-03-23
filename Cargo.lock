@@ -307,9 +307,11 @@ dependencies = [
 name = "rp2040-display"
 version = "0.1.0"
 dependencies = [
+ "cortex-m",
  "cortex-m-rt",
  "defmt",
  "defmt-rtt",
+ "embedded-hal",
  "panic-probe",
  "rp-pico",
 ]
